@@ -1,0 +1,16 @@
+[package]
+name = "varlong"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-std = "1.13.1"
+charts = "0.3.0"
+clap = { version = "4.5.42", features = ["derive"] }
+linfa = "0.8.0"
+ndarray = "0.16.1"
+ndarray-csv = "0.5.4"
+rayon = "1.11.0"
+smartcore = "0.4.9"
+tokio = { version = "1.47.1", features = ["full"] }
+xgb = { version = "3", default-features = false, features = ["local_build"] }
